@@ -66,3 +66,35 @@ GET /metric/active_visitors/sum // returns 12
 
 \*\* Note that the metric posted 2 hours ago is not included in the sum since we only care about
 data in the most recent hour for these APIs.
+
+## Scripts
+
+### Install dependencies
+
+```
+yarn install
+```
+
+### Complie in watch mode
+
+```
+yarn watch
+```
+
+### Run for development
+
+```
+yarn dev
+```
+
+### Lint files
+
+```
+yarn lint
+```
+
+### Format files with Prettier
+
+```
+yarn format
+```
